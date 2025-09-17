@@ -1,55 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Red Lantern Design</title>  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Red Lantern Design</title>
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
   <header id="masthead">
     <h1>
-      <img alt="Red Lantern logo" src="images/rl_logo.png" /></h1>
-    <ul id="nav">
-      <li><a class="active" title="Red Lantern home" href="index.html">Home</a></li>
-      <li><a title="Design services" href="services.html">Services</a></li>
-      <li><a title="Our work" href="portfolio.html">Portfolio</a></li>
-      <li><a title="Contact Red Lantern" href="contact.html">Contact</a></li>
-    </ul>
+      <img src="images/rl_logo.png" alt="Red Lantern logo" />
+      <!-- 可以加入文字版名稱（可用 CSS 隱藏） -->
+      <span class="visually-hidden">Red Lantern Design</span>
+    </h1>
+    <nav>
+      <ul id="nav">
+        <li><a class="active" href="index.html" title="Red Lantern home">Home</a></li>
+        <li><a href="services.html" title="Design services">Services</a></li>
+        <li><a href="portfolio.html" title="Our work">Portfolio</a></li>
+        <li><a href="contact.html" title="Contact Red Lantern">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+
   <article id="mainContent">
     <section id="titleBar">
-      <img alt="tokyo buildings" src="images/tokyo.jpg" />
+      <img src="images/tokyo.jpg" alt="Tokyo buildings" />
       <h1>Red Lantern builds unique interfaces <span class="amp">&amp;</span> user experience</h1>
     </section>
+
     <section id="content">
       <h2>Welcome to the New Red Lantern Design</h2>
-      <p>Red Lantern is a small web design and consulting firm specializing in standards-based design. 
-          Our goal is to build simple, beautiful webpages that make your information easy to use.
+      <p>
+        Red Lantern is a small web design and consulting firm specializing in standards-based design.
+        Our goal is to build simple, beautiful webpages that make your information easy to use.
+      </p>
       <p>
         If you or your company is interested in working with us, please check out our portfolio to see our work 
         and contact us with your project details. We look forward to hearing from you and making the web a little simpler and easier to find.
       </p>
       <ul id="link-list">
-        <li><a title="View our portfolio" href="#">View our full portfolio</a></li>
-        <li><a title="Contact Red Lantern" href="#">Contact Red Lantern</a></li>
+        <li><a href="#" title="View our portfolio">View our full portfolio</a></li>
+        <li><a href="#" title="Contact Red Lantern">Contact Red Lantern</a></li>
       </ul>
     </section>
+
     <section id="sidebar">
       <h2>Our Work</h2>
       <ul id="port">
-        <li><img alt="comp0" src="images/markinjapan.jpg" /></li>
-        <li><img alt="comp1" src="images/a2g.jpg" /></li>
-        <li><img alt="comp2" src="images/foobar.jpg" /></li>
-        <li><img alt="comp3" src="images/rpm.jpg" /></li>
+        <li><img src="images/markinjapan.jpg" alt="comp0" /></li>
+        <li><img src="images/a2g.jpg" alt="comp1" /></li>
+        <li><img src="images/foobar.jpg" alt="comp2" /></li>
+        <li><img src="images/rpm.jpg" alt="comp3" /></li>
       </ul>
     </section>
   </article>
+
   <footer id="footer">
-    <p>Copyright &copy; Red Lantern Design, all rights reserved.</p>
+    <p>&copy; Red Lantern Design, all rights reserved.</p>
   </footer>
 </body>
+
 </html>
